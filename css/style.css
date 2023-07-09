@@ -112,3 +112,36 @@ section {
   width: 24px;
   height: 24px;
 }
+
+.section-plans {
+  text-align: center;
+}
+
+.plans-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.plan-img {
+  width: 92.958px;
+  height: 92.958px;
+  margin-bottom: 25px;
+}
+
+.plan-title {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.plan-action {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.section-cta {
+}
