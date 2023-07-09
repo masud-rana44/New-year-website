@@ -10,6 +10,23 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+header,
+section {
+  margin-bottom: 135px;
+}
+
+.mb-sm {
+  margin-bottom: 16px;
+}
+
+.mb-md {
+  margin-bottom: 24px;
+}
+
+.mb-lg {
+  margin-bottom: 32px;
+}
+
 .header {
   position: relative;
   min-height: 100vh;
@@ -35,7 +52,6 @@ body {
 .description {
   font-size: 16px;
   line-height: 26px;
-  margin-bottom: 32px;
 }
 
 .btn,
@@ -51,23 +67,48 @@ body {
   border-radius: 5px;
 }
 
-.section-failure {
+/* main */
+.main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .failure-columns {
+  display: flex;
+  align-items: center;
+  gap: 100px;
 }
 
 .failure-img {
+  width: 451px;
+  /* height: 898px; */
 }
 
 .failure-content {
+  max-width: 416px;
 }
 
 .heading-secondary {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .failure-lists {
+  list-style: none;
 }
 
 .failure-lists li {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: #444343;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.material-symbols-outlined {
+  color: #16d887;
+  width: 24px;
+  height: 24px;
 }
